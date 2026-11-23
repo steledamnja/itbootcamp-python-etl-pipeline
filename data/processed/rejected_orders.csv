@@ -1,10 +1,10 @@
 order_id,order_date,product_id,quantity,unit_price,payment,customer,city,reason
 NSS-00034,2026-08-16,1031,,7490.0,card,Ivana Petrović,Kraljevo,missing_quantity
-TST-00077,2026-08-18,1098,1,1490.0,card,Petar Đorđević,Sombor,invalid order
-TST-00084,2026-08-19,1078,1,1990.0,card,Đorđe Jovanović,Kragujevac,invalid order
+TST-00077,2026-08-18,1098,1,1490.0,card,Petar Đorđević,Sombor,invalid_order
+TST-00084,2026-08-19,1078,1,1990.0,card,Đorđe Jovanović,Kragujevac,invalid_order
 NSS-00108,2026-08-20,1085,0,1490.0,paypal,Milan Pavlović,Čačak,invalid_quantity
 NSS-00131,2026-08-21,1022,,6490.0,card,Nikola Đorđević,Čačak,missing_quantity
-TST-00164,2026-08-23,1073,1,1490.0,card,Katarina Kovačević,Beograd,invalid order
+TST-00164,2026-08-23,1073,1,1490.0,card,Katarina Kovačević,Beograd,invalid_order
 NSS-00213,2026-08-25,1013,,1490.0,card,Ivana Ilić,Novi Sad,missing_quantity
 NSS-00289,2026-08-29,1019,1,0.0,card,Sara Đorđević,Kragujevac,invalid_price
 NSS-00322,2026-08-31,1014,1,,cash,Milica Ilić,Subotica,invalid_price
@@ -12,17 +12,17 @@ NSS-00398,2026-09-04,1070,0,1490.0,cash,Sara Kovačević,Niš,invalid_quantity
 NSS-00426,2026-09-05,1095,,490.0,paypal,Milica Petrović,Kraljevo,missing_quantity
 NSS-00526,2026-09-10,1050,1,,cash,Ivana Đorđević,Novi Sad,invalid_price
 NSS-00533,2026-09-11,1028,-3,1490.0,cash,Nikola Živković,Sombor,invalid_quantity
-TST-00543,2026-09-11,1014,2,2290.0,paypal,Ivana Đorđević,Sombor,invalid order
+TST-00543,2026-09-11,1014,2,2290.0,paypal,Ivana Đorđević,Sombor,invalid_order
 NSS-00547,2026-09-11,9999,2,2290.0,card,Ana Marković,Novi Sad,unknown_product
 NSS-00602,2026-09-14,1062,-1,6990.0,cash,Vuk Pavlović,Sombor,invalid_quantity
-TST-00636,2026-09-16,1050,1,1490.0,card,Teodora Pavlović,Kragujevac,invalid order
+TST-00636,2026-09-16,1050,1,1490.0,card,Teodora Pavlović,Kragujevac,invalid_order
 NSS-00650,2026-09-17,1105,2,abc,paypal,Sara Marković,Kraljevo,invalid_price
 NSS-00740,2026-09-21,999,2,6990.0,cash,Vuk Ilić,Čačak,unknown_product
 NSS-00832,2026-09-26,1101,1.5,7490.0,card,Nikola Pavlović,Subotica,invalid_quantity
 NSS-00845,2026-09-26,9999,1,1490.0,card,Luka Ilić,Zrenjanin,unknown_product
 NSS-00921,2026-09-30,9999,3,2290.0,card,Marko Jovanović,Beograd,unknown_product
 NSS-00960,2026-10-02,1039,1,-500.0,paypal,Jovana Živković,Beograd,invalid_price
-TST-01030,2026-10-05,1092,2,5990.0,card,Stefan Petrović,Zrenjanin,invalid order
+TST-01030,2026-10-05,1092,2,5990.0,card,Stefan Petrović,Zrenjanin,invalid_order
 NSS-01038,2026-10-06,1093,-1,1990.0,cash,Milan Pavlović,Subotica,invalid_quantity
 NSS-01136,2026-10-10,1028,,1490.0,card,Jovana Jovanović,Čačak,missing_quantity
 NSS-01285,2026-10-18,9999,2,6490.0,cash,Ivana Popović,Kraljevo,unknown_product
@@ -35,9 +35,9 @@ NSS-01603,2026-11-03,999,2,2990.0,card,Stefan Živković,Kraljevo,unknown_produc
 NSS-01612,2026-11-04,1070,,1490.0,card,Katarina Živković,Zrenjanin,missing_quantity
 NSS-01618,2026-11-04,1065,1,,cash,Petar Stojanović,Kragujevac,invalid_price
 NSS-01620,2026-11-04,1023,3,abc,card,Sara Nikolić,Novi Sad,invalid_price
-TST-01633,2026-11-05,1075,1,990.0,cash,Jovana Lazić,Kraljevo,invalid order
+TST-01633,2026-11-05,1075,1,990.0,cash,Jovana Lazić,Kraljevo,invalid_order
 NSS-01708,2026-11-09,1039,0,1290.0,card,Petar Petrović,Kraljevo,invalid_quantity
-TST-01741,2026-11-10,1061,3,6990.0,cash,Ivana Ilić,Subotica,invalid order
+TST-01741,2026-11-10,1061,3,6990.0,cash,Ivana Ilić,Subotica,invalid_order
 NSS-01806,2026-11-14,1092,,5990.0,card,Teodora Petrović,Niš,missing_quantity
 NSS-00152,2026-08-22,1043,1,1990.0,cash,Jelena Popović,Subotica,duplicate
 NSS-00180,2026-08-23,1088,2,1990.0,cash,Sara Kovačević,Subotica,duplicate
